@@ -14,7 +14,8 @@ Sub AddSerialNumbers()
 
     Dim i As Integer
     Dim maxNumber As Integer
-
+    
+    ' https://comate.baidu.com/zh/page/osd7il3ardh
     Dim ws As Worksheet
     Set ws = ActiveSheet
     maxNumber = ws.UsedRange.Rows.Count - 1
